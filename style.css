@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+body {
+	
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    line-height: 1.45;
+	/*background-color:#164453;*/
+}
+#grid {
+  width: 95%;
+}
+.menu-lateral {
+	background-color:rgb(15,10,50);
+	/*padding: 17px 0;
+	position: fixed;*/
+	
+}
+#page {
+	background-color: rgb(7, 49, 84);
+	margin:-20px 0px 0px 0px;
+	position: fixed;
+	width: 100%;
+	border-radius: 15px;
+	padding: 30px 0px  ;
+  box-sizing: content-box;
+	
+}
+#page ul {
+	margin-left: 38%;
+  text-transform: uppercase;
+}
+#page  a span {
+	border: .6px solid #dddddd;
+	border-radius: 35px;
+	padding:5px 6px;
+	
+}
+#page a span:hover{
+	background: rgba(0,0,0,.8);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #fff;
+	font-size: 13pt;
+	border-radius:none;
+	
+}
+
+#page a {
+	color: #ffffff;
+}
+
+header.menu {
+  background-color:rgb(66, 153, 225,);
+  margin:-10px 0px 0px 0px;
+ /* position: fixed; */
+}
+header.menu ul {
+	list-style: none;
+	/*position: 50% 50%;*/
+}
+header.menu li {
+	display: inline-block;
+    padding: 13px;
+}
+.logo-home {
+	position: absolute;
+}
+.logo-home img {
+	transition: 1s;
+}
+.logo-home:hover  img {
+	width:10%;
+}
+.links {
+	text-decoration: none;
+	color: #606060;
+	border-radius: 35px;
+	padding: 5px;
+	
+	transition: .5s;
+}
+.links:hover {
+	background: rgba(0,0,0,.3);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #fff;
+	font-size: 13pt;
+}
+
+.saudacoes {
+  color: #FFFFFF;
+  background-color: #001b2e;
+  padding: 9em 0;
+  text-align: center;
+  margin:-20px 0px 0px 0px;
+ cursor: pointer;
+}
+.saudacoes h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 32pt;
+}
+
+h1 {
+	padding: -10px;
+    font-size: 35pt;
+  
+}
+h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+section {
+  padding: 40px 0;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container {
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px 0 20px;
+    max-width: 910px;
+}
+.treinees {
+  background-color: #FFFFFF;
+  margin:-20px 0px 0px 0px;
+  font-size: 20pt;
+  background-image:url('_imgagens/trenee-logo.png') ;
+  background-position: 55% 55%;
+  background-repeat: no-repeat;
+   
+}
+section.treinees h1 {
+  color: #868686;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size:16px;
+    align-items: center;
+    align-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.feature img {
+    width:60%;
+}
+.imagens {
+  display: inline-block;
+ -moz-box-align: center;
+  align-items: center;
+  
+}
+.parceiro span {
+  font-size:30px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color:#FFFFFF;
+  align-items:center;
+  margin: 0 auto;
+}
+section.parceiro {
+  background: rgb(22, 114, 132) none repeat scroll 0% 0%;
+  margin:-20px 0px 0px 0px;
+}
+
+footer {
+  background: #353535;
+  padding: 32px 0;
+  margin:-20px 0px 0px 0px;
+  text-align: center;
+  min-height: 60%;
+  color: #868686;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+.rodape {
+  /*background-color:#000; test*/
+  -moz-box-align: justify;
+  margin:-20px 0px 0px 0px;
+  min-height:40rem;
+}
+
+footer li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover {
+    color: white;
+}
+aside {
+	display: flex;
+	float: left;
+	width: 400px;
+}
+
+aside.lado-esquerdo  {
+	text-align: center;
+	flex-grow: 0.5;
+	float:left;
+	font-size:20px;
+	flex: 3 1 0%;
+	display: flex;
+	flex-direction: column;
+}
+.lado-esquerdo-redes img {
+	position: 50% 50%;
+	width: 35px;
+	height:35px;
+	transition: 1s;
+}
+.lado-esquerdo-redes img:hover {
+	width: 42px;
+	height:42px;
+}
+
+.form input {
+	padding: 10pt;
+}
+
+.logo-central{
+  max-width: 55%;
+}
+.credenciais{
+  clear: both;
+  background-color: #112b41;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 15px;
+  width: auto;
+  
+}
+
+#PgUp {
+	background: #353535;
+	align-content: middle;
+	}

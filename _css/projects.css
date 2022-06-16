@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+
+	background-color:#001b2e;
+	
+}
+#space {
+	background-color:#001b2e;
+	height:150px;
+}
+
+#grid {
+	width: 95%;
+  }
+#corpo {
+	margin-top: -25px;
+	height:890px;
+    background-color:#001b2e;
+    
+}
+
+#grupo {
+	padding: 1%;
+	min-width:100%;
+	min-height:935px;
+	background-color:#001b2e;
+	margin: -20px 0px 0px  0px ;
+}
+
+#cAlbum {
+	padding: .5%;
+	margin-left:px;
+	min-width:69%;
+	min-height: 50em;
+	justify-items: center;
+	text-align: center;
+	border: none;
+	overflow: hidden;
+	background-color:rgba(210,180,140,.9);
+	display: block;
+	float: right;
+}
+
+
+#lateral menu {
+	position:fixed;
+	min-width: 5%;
+	min-height: 25%;
+	display: block;
+	float: right;
+	padding: 1%;
+	margin-top: 22px;
+	/*background-color: rgba(255,190,205,.4);/*Teste*/
+	
+}
+menu ul {
+	color: (255,255,255,.6);
+	font-size: 13pt;
+}
+#lateral li {
+	text-align: left;
+}
+#lateral ul {
+	list-style: none;
+}
+
+#lateral li a {
+	
+	background-color:rgba(255,255,255,.7) ;/*Test*/
+	display: block;
+	padding: 15px 5px;
+	color : rgba(184,134,11,.9);
+	border-right:8px solid #008B8B;
+	transition: .2s;
+	text-decoration: none;
+}
+ #lateral li a:hover{
+	
+	
+	 color:#ffffff;
+	 border-right:none;
+	 text-transform: uppercase;
+ }
+
+ .footer{
+	background-color: #112b41;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 15px;
+ }
